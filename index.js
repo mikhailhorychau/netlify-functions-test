@@ -11,4 +11,6 @@ app.pos('/', (req, res) => {
     });
 });
 
+app.listen(3000, () => {});
+
 module.exports.handler = serverless(app);
