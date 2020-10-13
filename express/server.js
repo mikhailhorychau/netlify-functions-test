@@ -5,7 +5,7 @@ const bodyParser = require('body-parser');
 const app = express();
 
 app.use(bodyParser);
-app.pos('/', (req, res) => {
+app.get('/', (req, res) => {
     res.json({
         message: 'All fine!'
     });
